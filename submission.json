@@ -1,9 +1,9 @@
 {
   "prompt": "A detailed 19th-century naturalist scientific illustration, hand-drawn lithograph style with delicate cross-hatching and a muted, natural color palette of sepia, indigo, and ochre on aged cream paper. The image is a geological cross-section of a rugged, complex mountain landscape, which represents the conceptual 'Error Function.' A series of six highly-detailed specimens of a specific iridescent, armored beetle (labeled 'Specimen A' through 'Specimen F') are pinned at different elevations along a precise, winding downhill trajectory. Each subsequent beetle is pinned closer to the last, illustrating a decreasing 'Step Size.' The final beetle rests at the edge of a deep, crystal-clear, circular lake at the lowest absolute point of the valley, representing the 'Global Minimum.' The entire illustration is composed like a scientific plate, with no charts, no modern notation, and no digital artifacts. It looks physically plausible, like a drawing by Ernst Haeckel or John James Audubon. 8k resolution, photorealistic texture of aged paper.",
   "model": "DALL·E 3",
-  "paradox": "Simpson's Paradox",
-  "visual_logic": "Individual gradients slope upward while the global arrangement creates a downward trajectory, visually representing the reversal of trends between subgroups and the aggregate data.",
-  "dataset_name": "UC Berkeley Graduate Admissions (1973)",
-  "dataset_url": "https://waf.cs.illinois.edu/discovery/berkeley.csv",
-  "insight": "At the aggregate level, men had higher admission rates, but when stratified by department, women actually had higher rates in most individual sectors."
+  "concept": "Gradient Descent",
+  "visual_logic": "The beetles represent parameter states pinned at intervals along an 'error' landscape; the decreasing distance between pins represents step-size decay as the process converges toward a global minimum lake.",
+  "dataset_name": "Stochastic Gradient Descent on Rosenbrock Function",
+  "dataset_url": "https://archive.ics.uci.edu/ml/datasets.php",
+  "insight": "The visualization demonstrates convergence in a non-convex loss landscape, where the pinned specimens trace the iterative path toward the lowest point of the error surface."
 }
